@@ -1,9 +1,8 @@
 package com.example.demo;
 
 import java.util.Scanner;
-
 public class Principal {
-    public static void main(String[] args )throws  {
+    public static void main(String[] args )  {
         //Judo_Kas jk1 = new Judo_Kas("Juan", "Perez",12/12/12,"Masculino","Medio",98.6);
         Scanner pes=new Scanner(System.in);
         Scanner nom=new Scanner(System.in);
@@ -22,8 +21,8 @@ public class Principal {
         System.out.println("Ingrese categoria perteneciente:  ");
         String ca= cat.nextLine();
         float peso= Float.parseFloat(pes.nextLine());
-        Judo_Kas j1=new Judo_Kas(nombre,ap,fe,gen,ca,peso);
-        System.out.println(j1);
+        //Judo_Kas j1=new Judo_Kas(nombre,ap,fe,gen,ca,peso);
+        //System.out.println(j1);
 
 
 
